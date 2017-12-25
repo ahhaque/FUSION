@@ -22,7 +22,7 @@ To execute the program:
  
 ## Properties:
 * baseDir
- * Path to the base directory, which contains the input file(s). This will be appended to the name of the input file for getting the input file path.
+ ** Path to the base directory, which contains the input file(s). This will be appended to the name of the input file for getting the input file path.
 * srcfileAppend
  * This string is appeneded after the name of input file supplied as the first parameter to get the file name for the source stream in the baseDir location.
 * trgfileAppend
