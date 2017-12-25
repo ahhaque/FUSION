@@ -21,8 +21,8 @@ To execute the program:
 2. Call the main function in the multistream.py file with two parameters. The first parameter is the path to the dataset file without extension. Extension is automatically appended from the corresponding property in the config.property file. The second parameter is the probability that the next instance will come from the source stream. As an example, the second parameter value 0.1 means that the next instance will come from the source stream with 10% probability and from the target stream with 90% probability. 
  
 ## Properties:
-* baseDir
- ** Path to the base directory, which contains the input file(s). This will be appended to the name of the input file for getting the input file path.
+### baseDir
+* Path to the base directory, which contains the input file(s). This will be appended to the name of the input file for getting the input file path.
 * srcfileAppend
  * This string is appeneded after the name of input file supplied as the first parameter to get the file name for the source stream in the baseDir location.
 * trgfileAppend
