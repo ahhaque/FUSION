@@ -24,49 +24,49 @@ To execute the program:
 * baseDir
   * Path to the base directory, which contains the input file(s). This will be appended to the name of the input file for getting the input file path.
 * srcfileAppend
- * This string is appeneded after the name of input file supplied as the first parameter to get the file name for the source stream in the baseDir location.
+  * This string is appeneded after the name of input file supplied as the first parameter to get the file name for the source stream in the baseDir location.
 * trgfileAppend
- * This string is appeneded after the name of input file supplied as the first parameter to get the file name for the target stream in the baseDir location.
+  * This string is appeneded after the name of input file supplied as the first parameter to get the file name for the target stream in the baseDir location.
 * useKliepCVSigma
- * 1: Use the cross-validated value for sigma; 0: Use a fixed value for sigma.
+  * 1: Use the cross-validated value for sigma; 0: Use a fixed value for sigma.
 * kliepDefSigma
- * In case useKliepCVSigma=0 was used, the value for sigma is specified in this property.
+  * In case useKliepCVSigma=0 was used, the value for sigma is specified in this property.
 * kliepParEta
- * Value for the parameter Eta.
+  * Value for the parameter Eta.
 * kliepParLambda
- * Value for the parameter lambda.
+  * Value for the parameter lambda.
 * kliepParB
- * Value for the parameter B.
+  * Value for the parameter B.
 * kliepParThreshold
- * Value for the threshold used in the change detection algorithm.
+  * Value for the threshold used in the change detection algorithm.
 * useSvmCVParams
- * If set, find the parameters for SVM using cross-validation.
+  * If set, find the parameters for SVM using cross-validation.
 * svmDefGamma
- * Default value for the gamma parameter in SVM.
+  * Default value for the gamma parameter in SVM.
 * svmDefC
- * Default value for the parameter "C" in SVM.
+  * Default value for the parameter "C" in SVM.
 * kernel
- * Type of kernel used in the svm algorithm.
+  * Type of kernel used in the svm algorithm.
 * cushion
- * The value of cushion for the change detection algorithm if not calculated by gamma.
+  * The value of cushion for the change detection algorithm if not calculated by gamma.
 * sensitivity
- * Sensitivity of the change detection algorithm.
+  * Sensitivity of the change detection algorithm.
 * maxWindowSize
- * Size of the source and target sliding window.
+  * Size of the source and target sliding window.
 * initialDataSize
- * Size of the initial/warm-up training data.
+  * Size of the initial/warm-up training data.
 * enableForceUpdate
- * If set, update the classifier after a long period of time even if there is no change detected.
+  * If set, update the classifier after a long period of time even if there is no change detected.
 * forceUpdatePeriod
- * If enableForceUpdate is set, the classifier is updated after this many instances even if there is no change detected.
+  * If enableForceUpdate is set, the classifier is updated after this many instances even if there is no change detected.
 * ensemble_size
- * Size of the ensemble.
+  * Size of the ensemble.
 * output_file_name
- * Path to the output file.
+  * Path to the output file.
 * logfile
- * Path to the log file.
+  * Path to the log file.
 * tempDir
- * Path to the directory containing all the temporary files.
+  * Path to the directory containing all the temporary files.
 
 ## Output
 ### Console output
